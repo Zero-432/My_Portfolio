@@ -1,0 +1,56 @@
+//styles normalizer
+@import '~modern-normalize/modern-normalize.css';
+
+//fonts
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;500&display=swap');
+
+//keyframes
+@import 'keyframes';
+
+//transitions
+@import 'transitions';
+
+//theme
+@import 'theme';
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  background-color: transparent;
+  color: inherit;
+  outline: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
